@@ -1,11 +1,166 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>assingment-3</title>
+    <!-- font family -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap" rel="stylesheet">
+    <!-- font awosome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- daisyUi and tailwind css link -->
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+   
+     <!-- Tailwind CSS Configuration -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primary: 'rgb(171, 239, 95)',
+                        secondary: 'rgb(73, 73, 73)',
+                        ash:'rgb(115, 115, 115)'
+                        body: 'rgb(255, 255, 255)',
+                        accent: 'rgb(30, 30, 30)',
+                        body_neutral: 'rgb((244, 244, 244))',
+                    },
+                    fontFamily: {
+                        Manrope: 'Manrope',
+                    },
+                    backgroundImage: {
+                        vector: "url('/assets/Vector.png')",
+                        call_to_action: "url('')",
+                        testimonials: "url('')",
+                    },
+                },
+            },
+        }
+    </script>
 </head>
-<body>
-    
+<body class="font-Manrope">
+    <!-- header started here -->
+    <header>
+        <nav class=" w-11/12 mx-auto p-0 py-5 ">
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  
+                  <a class="btn btn-ghost text-xl">
+                    <i class="fa-solid fa-arrow-right bg-green-200  origin-top-left rotate-45 rounded-box"></i>
+                    <h2 class="font-bold text-3xl"> Rinterio</h2>
+                    
+                  </a>
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1 text-base font-medium">
+                    <li class=" font-blod text-[rgb(73, 73, 73)]"><a>Home</a></li>
+                    <li class="text-ash"><a>Services</a></li>
+                    <li class="text-ash"><a>Protfolio</a></li>
+                    <li class="text-ash"><a>Blogs</a></li>
+                    <li class="text-ash"><a>Contact Us</a></li>
+                    
+                  </ul>
+                </div>
+                <div class="navbar-end">
+                   <div class="navbar-center hidden sm:flex gap-4">
+                    
+                    <button><i class="bg-white-700  fa-solid fa-magnifying-glass"></i></button>
+                <button><i class="bg-white-700  fa-solid fa-credit-card"></i>
+                </button>
+             
+                <a class="btn btn-sucess">Button
+                    <i class="fa-solid fa-arrow-right rotate-45"></i>
+                </a>
+                   </div>
+                    
+                    <div class="dropdown">
+                        <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                            <i class="fa-solid fa-bars"></i>
+                        </div>
+                        <ul
+                          tabindex="0"
+                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-medium right-0 gap-5 ">
+                          <li class=" font-blod text-[rgb(73, 73, 73)]"><a>Home</a></li>
+                          <li class="text-ash"><a>Services</a></li>
+                          <li class="text-ash"><a>Protfolio</a></li>
+                          <li class="text-ash"><a>Blogs</a></li>
+                          <li class="text-ash"><a>Contact Us</a></li>
+                        </ul>
+                      </div>
+                    
+                 
+                </div>
+                
+              </div>
+              <!-- header end here-->
+              <!-- banner-section -->
+              <div class="card bg-base-100 w-full shadow-xl p-0 py-5 sm:flex-col ">
+                <figure class="px-10 pt-10">
+                  <img
+                    src="/assets/banner.png"
+                    alt="banner"
+                    class="rounded-xl" />
+                </figure>
+                <div class="card-body items-center text-center">
+                  <h2 class="card-title font-extrabold	text-4xl	">A barn house of this design has a <br> striking appearance</h2>
+                  <p class="font-normal	text-base aling-center	">We provide very competitively priced authentic food and drinks products directly to your doorstep, saving households time and money, and thus providing for a healthier and happier life. Further, we provide a much larger product assortment than any existing single traditional retailer.<p>
+                  <div class="card-actions">
+                    <button class="btn btn-primary"> View Details
+                        <i class="fa-solid fa-arrow-right"></i>
+                    </button>
+                  </div>
+                </div>
+              </div>
+        </nav>
+    </header>
+    <!-- banner end here -->
+    <!--main section start here -->
+    <main class="bg-accent">
+        <section class=" ">
+            <div class="  w-11/12 mx-auto  flex justify-between  leading-tight sm:flex-row flex-col	 my-3">
+                <div class="my-20 px-3 gap-1">
+                    <div class="leading-5 my-6">
+                        <img class="" src="assets/Vector.png" alt="">
+                        <button class="btn btn-error py-4"><i class="fa-solid fa-arrow-right"></i> Contact Us</button>
+
+                    </div>
+                    <div class="leading-5">
+                        <h2 class="font-extrabold	text-4xl">We design thoughtful, <br> liveable spaces</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit, voluptatem!</p>
+                        <div class="flex flex-col leading-tight	my-8 ">
+                            <div class="flex flex-row bg-white rounded-lg px-2 py-3 my-4 r">
+                                <div> 
+                                    <img src="assets/residential.png" alt="">
+                                    </div>
+                                    <div>
+                                        <h3>Residential</h3>
+                                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p></div>
+                            </div>
+                            <div class="flex flex-row bg-white rounded-lg px-2 py-3  ">
+                                <img src="assets/commercial.png" alt="">
+                                <div >
+                                    <h3 >Commercial</h3>
+                                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div  class=" flex ">
+                    <img class="w-11/12" src="assets/Rectangle.png" alt="">
+                </div>
+            </div>
+        </section>
+        <!-- section-end here -->
+         <!-- our wrok process -->
+         <section>
+        <div>
+
+        </div>
+         </section>
+    </main>
 </body>
 </html>

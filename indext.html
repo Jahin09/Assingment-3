@@ -15,30 +15,24 @@
     <script src="https://cdn.tailwindcss.com"></script>
    
      <!-- Tailwind CSS Configuration -->
-    <script>
+     <script>
         tailwind.config = {
-            theme: {
-                extend: {
-                    colors: {
-                        primary: 'rgb(171, 239, 95)',
-                        secondary: 'rgb(73, 73, 73)',
-                        ash:'rgb(115, 115, 115)'
-                        body: 'rgb(255, 255, 255)',
-                        accent: 'rgb(30, 30, 30)',
-                        body_neutral: 'rgb((244, 244, 244))',
-                    },
-                    fontFamily: {
-                        Manrope: 'Manrope',
-                    },
-                    backgroundImage: {
-                        vector: "url('/assets/Vector.png')",
-                        call_to_action: "url('')",
-                        testimonials: "url('')",
-                    },
-                },
-            },
+          theme: {
+            extend: {
+                backgroundImage: {
+        'bg_img':"url('assets/bg.jpg')",
+        
+      }
+                }
+              colors: {
+                clifford: '#da373d',
+              }
+            }
+          }
         }
-    </script>
+      </script>
+    
+                     
 </head>
 <body class="font-Manrope">
     <!-- header started here -->
@@ -117,9 +111,9 @@
     </header>
     <!-- banner end here -->
     <!--main section start here -->
-    <main class="bg-accent">
+    <main class="bg-slate-300">
         <section class=" ">
-            <div class="  w-11/12 mx-auto  flex justify-between  leading-tight sm:flex-row flex-col	 my-3">
+            <div class="  w-11/12 mx-auto  flex justify-between  leading-tight sm:flex-row flex-col	 py-5 px-5">
                 <div class="my-20 px-3 gap-1">
                     <div class="leading-5 my-6">
                         <img class="" src="assets/Vector.png" alt="">
@@ -158,7 +152,7 @@
          <!-- our wrok process -->
          <section>
         <div class=" sm:flex-row flex-col">
-            <div class="w-11/12 mx-auto gap-9">
+            <div class="w-11/12 mx-auto gap-9 px-4 py-4">
             <div class="flex flex-col justify-center aling-center text-center mt-10 mb-5">
                   <div>
                     <button class="btn btn-frimary bg-white-400 h-8 w-42"><i class="fa-solid fa-arrow-right "></i>How we work</button>
@@ -203,16 +197,17 @@
          </section>
          <!-- ended our work porcess -->
           <!-- started our lastest protfolio -->
-          <section>
-             <div class=" bg-white  mt-5">
+
+          <section class="bg-white">
+             <div class="  ">
 
          
-          <div class=" w-11/12 mx-auto gap-3  ">
-            <div class="grid grid-cols-1 text-center ">
+          <div class=" w-11/12  h-full mx-auto gap-10 px-4 py-4 ">
+            <div class="grid grid-cols-1 text-center mt-10 justify-center align-center ">
              <div>
                 <button class="btn btn-primary"><i class="fa-solid fa-arrow-right"></i> Explore our Latest Work</button>
             </div>
-            <div class="mt-8 gap-2 sm:flex-row flex-col">
+            <div class=" gap-2 sm:flex-row flex-col">
                 <h2 class="font-extrabold text-4xl">Our Latest Portfolio</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia.</p>
             </div>
@@ -260,6 +255,90 @@
 </div>
         
           </section>
+          <!-- ended latest profolio -->
+           <!-- let's connect -->
+            <section>
+                <div class="bg-[url('/assets/bg.jpg')] w-full h-3/4	 bg-no-repeat bg-cover bg-center mt-10 ">
+                   
+                 <div class="w-11/12 mx-auto p-8">
+                 <div class="grid grid-cols-1">
+                    <div class="grid grid-cols-1">
+                        <div class="grid justify-center">
+                            <button class=" btn w-40 bg-green-100"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
+                         </div>
+                            <div class="grid justify-center text-center">
+                                <h2 class="font-bold text-lg">Let’s Discuss Next Project</h2>
+                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque laboriosam magnam repudiandae doloremque dignissimos a!</p>
+                            </div>
+
+                    </div>
+                </div>
+                <div class="w-3/4 mx-auto ">
+                    <div class=" grid grid-cols-1 lg:grid-cols-2 gap-5">
+                        <div> 
+                            <input class="mt-5 p-3 border-none outline-none bg-white rounded-2xl w-full text-lg" type="text" placeholder="First name">
+                                                     </div>
+                        <div>
+                            <input class="mt-5 p-3 border-none outline-none bg-white rounded-2xl w-full text-lg" type="text" placeholder="First name">
+                                                     </div>
+                        <div>
+                            <input class="mt-5 p-3 border-none outline-none bg-white rounded-2xl w-full text-lg" type="text" placeholder="First name">
+                                                     </div>
+                        <div>
+                            <input class="mt-5 p-3 border-none outline-none bg-white rounded-2xl w-full text-lg" type="text" placeholder="First name">
+                                                     </div>
+            
+              <div class="lg:col-span-2">
+                <textarea rows="6" class=" mt-4  p-3 border-none outline-none bg-white rounded-2xl w-full h-18" placeholder="Write message here">
+                </textarea> 
+              </div>
+                     <div class="col-span-2">
+                        <button class="btn bg-[#ABEF5F] w-full"><span class="font-bold text-lg">Send Mail</span> <i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-black text-white w-7 h-7 p-2"></i></button> 
+                     </div>      
+                    </div>
+                   
+                </div>
+                 
+                 </div>
+                               
+                
+                  </div>
+                  
+            </section>
+            <!-- ended let's connect -->
+           
     </main>
+    <!-- started footer section -->
+    <footer>
+        <div class="bg-gray-950 text-gray-400">
+           <div class="11/12 mx-auto p-10 gap-4 space-y-9">
+           
+                <div class="flex flex-col  justify-center text-center ">
+                    <div class="">
+                        <h2 class="font-bold text-xl"><i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-green-400 w-7 h-7 p-1 text-black"></i>Rinterio</h2>
+                    </div>
+                    <div class="gap-5">
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti placeat quam incidunt saepe maxime, explicabo dolore, consectetur rem aspernatur</p>
+                    </div>
+                </div>
+              
+            
+            <div class=" ">
+                <ul class="flex justify-evenly text-center px-1 sm:flex-row flex-col gap-5">
+                    <li class=" font-blod text-[rgb(73, 73, 73)]"><a>Home</a></li>
+                    <li class="text-ash"><a>Services</a></li>
+                    <li class="text-ash"><a>Protfolio</a></li>
+                    <li class="text-ash"><a>Blogs</a></li>
+                    <li class="text-ash"><a>Contact Us</a></li>
+                    
+                  </ul> 
+            </div>
+            <div class=" text-center font-bold justify-center rounded-full sm:flex-row flex-col spa">
+                <button class="btn rounded-full bg-green-400"><span class="text-black font-extrabold" > Book Consult</span> <i class="fa-solid fa-arrow-up rotate-45 inline-block bg-black rounded-full  text-white w-7 h-7 p-2"></i></button>
+                </div>
+            </div>
+        </div>
+    </div>
+    </footer>
 </body>
 </html>

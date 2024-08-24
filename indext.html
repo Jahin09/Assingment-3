@@ -36,9 +36,9 @@
 </head>
 <body class="font-Manrope">
     <!-- header started here -->
-    <header>
+    <header class="bg-gray-100">
         <nav class=" w-11/12 mx-auto p-0 py-5 ">
-            <div class="navbar bg-base-100">
+            <div class="navbar ">
                 <div class="navbar-start">
                   
                   <a class="btn btn-ghost text-xl">
@@ -49,23 +49,24 @@
                 </div>
                 <div class="navbar-center hidden lg:flex">
                   <ul class="menu menu-horizontal px-1 text-base font-medium">
-                    <li class=" font-blod text-[rgb(73, 73, 73)]"><a>Home</a></li>
-                    <li class="text-ash"><a>Services</a></li>
-                    <li class="text-ash"><a>Protfolio</a></li>
-                    <li class="text-ash"><a>Blogs</a></li>
-                    <li class="text-ash"><a>Contact Us</a></li>
+                    <li class=" font-bold text-black"><a>Home</a></li>
+                    <li class="text-slate-500"><a>Services</a></li>
+                    <li class="text-slate-500"><a>Protfolio</a></li>
+                    <li class="text-slate-500"><a>Blogs</a></li>
+                    <li class="text-slate-500"><a>Contact Us</a></li>
                     
                   </ul>
                 </div>
                 <div class="navbar-end">
                    <div class="navbar-center hidden sm:flex gap-4">
                     
-                    <button><i class="bg-white-700  fa-solid fa-magnifying-glass"></i></button>
-                <button><i class="bg-white-700  fa-solid fa-credit-card"></i>
+                    <button><i class="bg-white font-bold p-2 rounded-full  fa-solid fa-magnifying-glass"></i></button>
+                <button>
+                  <i class="bg-white p-2 rounded-full  fa-solid fa-credit-card"></i>
                 </button>
              
-                <a class="btn btn-sucess bg-white">Button
-                    <i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-black text-white w-7 h-7 p-2"></i>
+                <a class="btn  rounded-full bg-[#ABEF5F] font-extrabold">Book Consult
+                    <i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-black text-white  w-7 h-7 p-2"></i>
                 </a>
                    </div>
                     
@@ -75,12 +76,12 @@
                         </div>
                         <ul
                           tabindex="0"
-                          class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-medium right-0 gap-5 ">
-                          <li class=" font-blod text-[rgb(73, 73, 73)]"><a>Home</a></li>
-                          <li class="text-ash"><a>Services</a></li>
-                          <li class="text-ash"><a>Protfolio</a></li>
-                          <li class="text-ash"><a>Blogs</a></li>
-                          <li class="text-ash"><a>Contact Us</a></li>
+                          class="menu menu-sm dropdown-content bg-white  rounded-box z-[1] mt-3 w-52 p-2 shadow text-xl font-medium right-0 gap-5  ">
+                          <li class=" font-bold text-black"><a>Home</a></li>
+                          <li class="text-slate-500"><a>Services</a></li>
+                          <li class="text-slate-500"><a>Protfolio</a></li>
+                          <li class="text-slate-500"><a>Blogs</a></li>
+                          <li class="text-slate-500"><a>Contact Us</a></li>
                         </ul>
                       </div>
                     
@@ -90,7 +91,7 @@
               </div>
               <!-- header end here-->
               <!-- banner-section -->
-              <div class="card bg-base-100 w-full shadow-xl p-0 py-5 sm:flex-col ">
+              <div class="card  w-full  p-0 py-5 sm:flex-col ">
                 <figure class="px-10 pt-10">
                   <img
                     src="/assets/banner.png"
@@ -101,7 +102,7 @@
                   <h2 class="card-title font-extrabold	text-4xl	">A barn house of this design has a <br> striking appearance</h2>
                   <p class="font-normal	text-base aling-center	">We provide very competitively priced authentic food and drinks products directly to your doorstep, saving households time and money, and thus providing for a healthier and happier life. Further, we provide a much larger product assortment than any existing single traditional retailer.<p>
                   <div class="card-actions">
-                    <button class="btn btn-primary"> View Details
+                    <button class="btn bg-[#ABEF5F80] rounded-full font-bold text-xl"> View Details
                         <i class="fa-solid fa-arrow-right"></i>
                     </button>
                   </div>
@@ -112,14 +113,14 @@
     <!-- banner end here -->
     <!--main section start here -->
     <!-- about us-section -->
-    <main class="bg-slate-200">
-        <section class=" ">
+    <main>
+        <section class=" bg-gray-200">
           <div class=" lg:flex p-4 sm:flex-row hidden"> 
             <img src="assets/Vector.png" alt="">
           </div>
             <div class=" w-11/12  mx-auto">
               
-               <div class="flex justify-between flex-1 sm:flex-row flex-col gap-5 mb-20 sm:mt-5 mt-10">
+               <div class="flex justify-between flex-1 sm:flex-row flex-col gap-5 pb-20 sm:pt-0 pt-6 ">
                 <div class=" gap-3">
                   <div class=" ">
                      <button class=" bg-white font-bold rounded-full w-28 h-9 justify-center text-center"><i class="fa-solid fa-arrow-right"></i> About Us</button>
@@ -131,20 +132,20 @@
                       <p>Our design has a fresh business recipe.Besides from producing our own furniture design, <br>we aim to sign as many collaborations with romanian designers and create unique furniture pieces. In this way,<br> our product portfolio will contain objects with  more personality that meet a wide variety of style and design requirements. </p> 
                       </div> <br>
                       <div class="flex flex-col gap-7 ">
-                          <div class="flex flex-row bg-white rounded-lg  p-8">
+                          <div class="flex flex-row bg-white rounded-lg gap-3  p-7">
                               <div> 
-                                  <img src="assets/residential.png" alt="">
+                                  <img class="w-full" src="assets/residential.png" alt="">
                                   </div>
-                                  <div>
-                                      <h3>Residential</h3>
-                                      <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                                  <div class="">
+                                      <h3 class="font-bold">Residential</h3>
+                                      <p class="">A residential building is defined as a building <br>that contains separate living spaces where individuals can reside or stay regularly.</p>
                                     </div> <br>
                           </div>
-                          <div class="flex flex-row bg-white rounded-lg p-8  ">
-                              <img src="assets/commercial.png" alt="">
-                              <div >
-                                  <h3 >Commercial</h3>
-                              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+                          <div class="flex flex-row bg-white rounded-lg p-7 gap-3   ">
+                              <img class="h-full" src="assets/commercial.png" alt="">
+                              <div class="" >
+                                  <h3 class="font-bold">Commercial</h3>
+                              <p>A commercial building could contain one or more  of many types of businesses <br> including retailers, restaurants, offices or manufacturing.</p>
                               </div>
                           </div>
                           
@@ -160,53 +161,54 @@
         </section>
         <!-- about us section end  here -->
          <!-- our wrok process -->
-         <section class="bg-slate-100">
-        <div class=" sm:flex-row flex-col">
-            <div class="w-11/12 mx-auto gap-9 p-9">
-            <div class="flex flex-col justify-center aling-center text-center">
-                  <div>
-                    <button class="btn font-bold bg-white rounded-full h-8 w-42"><i class="fa-solid fa-arrow-right "></i>How we work</button>
-                  </div><br>
-               <div>
-                 <h2 class="text-3xl font-extrabold">Our Works Process</h2> <br>
-                <p>While we personalize our plans and its execution according to your business needs, we have predefined steps to approach a new assignment.These steps have been proven to increase our efficiency at work so that we meet your deadlines and guarantee exceptional results, every time.
-                  
-                  </p></div> <br>
-            </div>
-            <div class=" grid grid-cols-1 gap-5 rounded-2xl lg:grid-cols-4">
-            <div class="bg-[#E7C1D3]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
-                <div class=" mx-4 my-3 px-1 py-2 gap-8">
-                    <img class="w-1/4" src="assets/concept.png" alt="">
-                <h4 class="font-bold">Research</h4>
-                <p>
-                  Gathering Information from all around.</p>
-                </div>
-            </div>
-            <div class="bg-[#EFDA6E]  w-62 h-68 flex flex-col  justify-start rounded-2xl	">
-                <div class="mx-4 my-3 px-1 py-2 gap-8">
-                    <img class="w-1/4" src="assets/flow-chart.png" alt="">
-                <h4 class="font-bold">Design Process </h4>
-                <p>
-                  Effective strategies for favorable outcomes</p>
-                </div>
-            </div>
-            <div class="bg-[#A4DAC3]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
-                <div class="mx-4 my-3 px-1 py-2 gap-8">
-                    <img class="w-1/4" src="assets/vision.png" alt="">
-                <h4 class="font-bold">Supervision</h4>
-                <p>
-                  Timely execution as per the plan</p>
-                </div>
-            </div>
-            <div class="bg-[#77AAEA]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
-                <div class="mx-4 my-3 px-1 py-2 gap-8">
-                    <img class="w-1/4" src="assets/budget-planning.png" alt="">
-                <h4 class="font-bold">Budget Planning </h4>
-                <p>
-                  Making a successful launch</p>
-                </div>
-            </div>
-            </div>
+         <section>
+        <div class=" sm:flex-row flex-col bg-gray-200">
+            <div class="w-11/12 mx-auto gap-9 py-24">
+              <div class="flex flex-col justify-center aling-center text-center">
+                <div class="">
+                  <button class="font-extrabold bg-white rounded-full  px-4 py-2 hover:bg-emerald-100"><i class="fa-solid fa-arrow-right "></i>How we work</button>
+                </div><br>
+             <div>
+               <h2 class="text-3xl font-extrabold">Our Works Process</h2> <br>
+              <p>While we personalize our plans and its execution according to your business needs, we have predefined steps to approach a new assignment.These steps have been proven to increase our efficiency at work so that we meet your deadlines and guarantee exceptional results, every time.
+                
+                </p></div> <br>
+          </div>
+          <div class=" grid grid-cols-1 gap-5 rounded-2xl lg:grid-cols-4">
+          <div class="bg-[#E7C1D3]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
+              <div class=" mx-4 my-3 px-1 py-2 gap-8">
+                  <img class="w-1/4" src="assets/concept.png" alt="">
+              <h4 class="font-bold">Concept</h4>
+              <p>
+                Gathering Information from all around.</p>
+              </div>
+          </div>
+          <div class="bg-[#EFDA6E]  w-62 h-68 flex flex-col  justify-start rounded-2xl	">
+              <div class="mx-4 my-3 px-1 py-2 gap-8">
+                  <img class="w-1/4" src="assets/flow-chart.png" alt="">
+              <h4 class="font-bold">Design Process </h4>
+              <p>
+                Effective strategies for favorable outcomes</p>
+              </div>
+          </div>
+          <div class="bg-[#A4DAC3]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
+              <div class="mx-4 my-3 px-1 py-2 gap-8">
+                  <img class="w-1/4" src="assets/vision.png" alt="">
+              <h4 class="font-bold">Supervision</h4>
+              <p>
+                Timely execution as per the plan</p>
+              </div>
+          </div>
+          <div class="bg-[#77AAEA]  w-62 h-68 flex flex-col  justify-start rounded-2xl">
+              <div class="mx-4 my-3 px-1 py-2 gap-8">
+                  <img class="w-1/4" src="assets/budget-planning.png" alt="">
+              <h4 class="font-bold">Budget Planning </h4>
+              <p>
+                Making a successful launch</p>
+              </div>
+          </div>
+          </div>
+            
             </div>
         
         </div>
@@ -216,10 +218,10 @@
 
           <section class="bg-white">
              
-          <div class=" w-11/12 mx-auto gap-10 p-9 ">
+          <div class=" w-11/12 mx-auto gap-10 py-28 ">
             <div class="grid grid-cols-1 text-center mt-7 justify-center align-center ">
              <div>
-                <button class="btn  bg-green-200 text-black"><i class="fa-solid fa-arrow-right"></i> Explore our Latest Work</button>
+                <button class=" h-9 font-bold hover:bg-yellow-100 rounded-full  px-4 py-2 text-black bg-[#ABEF5F33]"><i class="fa-solid fa-arrow-right"></i> Explore our Latest Work</button>
             </div> <br>
             <div class=" gap-2 sm:flex-row flex-col">
                 <h2 class="font-extrabold text-4xl">Our Latest Portfolio</h2> <br>
@@ -276,7 +278,7 @@
                  <div class="grid grid-cols-1">
                     <div class="grid grid-cols-1">
                         <div class="grid justify-center">
-                            <button class=" btn w-40 bg-green-100"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
+                            <button class=" px-4 py-2 bg-[#ABEF5F33] rounded-full font-bold"><i class="fa-solid fa-arrow-right"></i> Let's Connect</button>
                          </div>
                             <div class="grid justify-center text-center">
                                 <h2 class="font-bold text-lg">Let’s Discuss Next Project</h2>
@@ -322,17 +324,21 @@
     </main>
     <!-- started footer section -->
     <footer>
-        <div class="bg-gray-950 text-gray-400">
-           <div class="11/12 mx-auto p-10 gap-4 space-y-9">
+        <div class="bg-black text-gray-400">
+           <div class="11/12 mx-auto p-10 gap-7 space-y-9">
            
                 <div class="flex flex-col  justify-center text-center ">
-                    <div class="">
-                        <h2 class="font-bold text-xl"><i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-green-400 w-7 h-7 p-1 text-black"></i>Rinterio</h2>
-                    </div>
+                    <div class="  gap-1 flex flex-row justify-center">
+                      <div><i class="fa-solid fa-arrow-up rotate-45 inline-block rounded-full bg-green-400 w-7 h-7 p-1 text-black"></i></div>
+                       <div>
+                        <h2 class=" bg-black text-gray-300 font-bold text-xl">Rinterio</h2>
+                       </div>
+                        
+                    </div> <br>
                     <div class="gap-5">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam deleniti placeat quam incidunt saepe maxime, explicabo dolore, consectetur rem aspernatur</p>
+                        <p>Rinterio is a unified communications platform that empowers business owners and promotes business growth through services that strengthen brand identity, and sustainably promote online presence to increase engagement.</p>
                     </div>
-                </div>
+                </div> <br>
               
             
             <div class=" ">
